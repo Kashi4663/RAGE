@@ -1,0 +1,289 @@
+<html lang="en">
+<head>
+  <title> RAGE </title>
+  
+  <link rel="stylesheet" href="RAGE.css">
+  <link rel="icon" href="E:\CSS\IMG_2852.PNG" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=expand_circle_right" />
+</head>
+<body class="color" >
+
+<!-- navigation bar -->
+<nav class="navbar navbar-expand-sm  navbar-light fixed-top">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+	
+	<!-- Rage Logo in navigation bar -->
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="E:\CSS\IMG_286941.JPEG.jpg"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><p class="text-white">ARTISTS</p></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><p class="text-white">POPULAR</p></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#"><p class="text-white">NEWS</p></a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link " href="#"><p class="text-white">ABOUT</p></a>
+      </li>
+    </ul>
+	<!-- search bar in navigation bar -->
+	 <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>	
+  </div>
+</nav>
+
+		<!-- Rage first image -->
+<div class="class bg-success" style="width:100px;">
+		
+			<div class="embed-responsive">
+			<!-- Video embed code goes here -->
+			<video width='1264' controls autoplay>
+			<source src="E:\CSS\coldplay 1.mp4" type="video/mp4">
+			<source src="E:\CSS\coldplay 1.mp4"type="video/ogg">
+			</video>
+			</div>
+			<div class="carousel-caption d-block mx-auto">
+			<center><text><big><big><big><big><b><b> RAGE</b></b></big></big></big></big> <big><big><big><big>–</big></big></big></big><big><big> Unleash the Music. Live Loud. Go Global</big></big></text></center>
+			<text>RAGE is your global passport to live music. Explore concerts, festivals, and underground shows happening around the world. Stay updated on tours,
+			discover new artists,
+			and never miss a beat. Whether you're a die-hard fan or a spontaneous traveler,
+			RAGE fuels your journey through sound, energy, and unforgettable nights</text>
+</div>
+</div>
+
+
+
+<div class="class bg-failure" style="width:100px;">
+		
+			<center> <img src="E:\CSS\carousel main page 1.jpg" > </center>
+		
+				<div class="card-body">
+</div>
+</div>
+
+<!-- artists carousel -->
+<!-- Background -->
+  <div class="background-photo"></div>
+
+  <!-- Carousel -->
+  <div class="carousel-container">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+	  
+	  <!-- arijit -->
+        <div class="carousel-item active">
+          <img src="E:\CSS\IMG_30144.PNG" class="d-block w-100" alt="Slide 1">
+        </div>
+		<!-- sonu -->
+        <div class="carousel-item">
+          <img src="E:\CSS\IMG_30174.PNG" class="d-block w-100" alt="Slide 2">
+        </div>
+		<!-- sunidhi -->
+        <div class="carousel-item">
+          <img src="E:\CSS\IMG_30209.png" class="d-block w-100" alt="Slide 3">
+        </div>
+      </div>
+	  <!-- for-prev -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+	  <!-- for-forw -->
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ 
+
+ 
+<!-- carousel of different locations of concert -->
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    
+	<!-- Indicators -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+    </div>
+	
+  <!-- Carousel Items -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="E:\CSS\brisbane 1.jpg" class="d-block w-100" alt="Slide 1">
+			 <div class="carousel-caption d-block mx-auto">
+       <p><big><big>BRISBANE,AUSTRALIA</big></big></p>
+	   <text>Fabulous! Crowd Experience At Brisbane,Australia</text>
+       </div>
+        </div>
+        <div class="carousel-item">
+            <img src="E:\CSS\LA concert 1.jpg" class="d-block w-100" alt="Slide 2">
+			 <div class="carousel-caption d-block mx-auto">
+       <p><big><big>GEOGRE GARDEN STADIUM,LOS ANGELES</big></big></p>
+	   <text>LA Matched The Vibe Of Coldplay</text>
+       </div>
+        </div>
+        <div class="carousel-item">
+            <img src="E:\CSS\rave 1.jpg" class="d-block w-100" alt="Slide 3">
+			 <div class="carousel-caption d-block mx-auto">
+       <p><big><big>RAVE CONCERTS</big></big></p>
+	   <text>Feel The Thrill, Horror And Goosebumps</text>
+       </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!-- 4 images in a row -->
+<div class="card-deck-wrapper">
+     <div class="card-deck">
+	 
+     <div class="card0 " style="width:300px;">
+    <img src="E:\CSS\IMG_3048.JPG" class="img-fluid" >
+	
+	<div class="carousel-caption d-block mx-auto">
+	    <a class="nav-link" href="#"><p class="text-white">
+	<text><big> <b>ROCK AND ROLL</b> </big></text></p></a>
+	</div>
+	 </div>
+	 
+     <div class="card1 " style="width:300px;">
+    <img src="E:\CSS\IMG_3049.JPG" class="img-fluid"  >
+	<div class="carousel-caption d-block mx-auto">
+	<a class="nav-link" href="#"><p class="text-white">
+     <text><big><b> DRUMMER</b></big> </text></p></a>
+	</div>
+      </div>
+	  
+	   <div class="card2 " style="width:300px;">
+    <img src="E:\CSS\IMG_3050.JPG" class="img-fluid"  >
+	<div class="carousel-caption d-block mx-auto">
+	  <a class="nav-link" href="#"><p class="text-white">
+      <text><big><b><b> JUMP</b> </big></text></p></a>
+	  </div>
+      </div>
+	  
+      <div class="card3 " style="width:300px;">
+    <img src="E:\CSS\IMG_3051.JPG" class="img-fluid"  >
+	<div class="carousel-caption d-block mx-auto">
+	<a class="nav-link" href="#"><p class="text-white">
+	<text><big><b> FIREWORKS</big></b> </text>
+	</div>
+      </div>
+	  
+	  
+	<!-- merchandise Background -->  
+	  <div class="card4 " style="width:1200px;">
+    <img src="E:\CSS\IMG_3108.JPEG.jpg" class="img-fluid"  >
+      </div>
+	  
+	  <!-- Merchandise logo -->
+	  <div class="merchandise " style="width:225px;">
+    <img src="E:\CSS\IMG_3112.PNG" class="img-fluid"  >
+      </div>
+	  
+	  <!-- coldplay t-shirt -->
+	   <div class="card5 " style="width:200px;">
+	   <a target="_blank" href="E:\CSS\IMG_3113.JPEG.jpg">
+    <img src="E:\CSS\IMG_3107.PNG" alt="Cinque Terre" class="img-fluid"  >
+	</a>
+      </div>
+	  
+	   <!-- rage t-shirt -->
+	   <div class="card6 " style="width:200px;">
+	   <a target="_blank" href="E:\CSS\IMG_3115.JPEG.jpg">
+    <img src="E:\CSS\IMG_3109.PNG" class="img-fluid"  >
+	</a>
+      </div>
+	  
+	   <!-- spotify t-shirt -->
+	   <div class="card7 " style="width:200px;">
+	   <a target="_blank" href="E:\CSS\IMG_3117.JPEG.jpg">
+    <img src="E:\CSS\IMG_3110.PNG" class="img-fluid"  >
+	</a>
+      </div>
+	  
+	   <!-- alan walker t-shirt -->
+	   <div class="card8 " style="width:200px;">
+	   <a target="_blank" href="E:\CSS\IMG_3116.JPEG.jpg">
+    <img src="E:\CSS\IMG_3111.PNG" class="img-fluid"  >
+	</a>	
+      </div>
+     
+     </div>
+     </div>
+
+
+    <!-- alan walker and djo music -->
+	<div class="class bg-success" style="width:100px;">
+		<!-- alan walker video -->
+			<div class="embed-responsive1">
+			
+			<!-- Video embed code goes here -->
+			<video width='600' controls autoplay>
+			<source src="E:\CSS\IMG_3121.MOV" type="video/mp4">
+			<source src="E:\CSS\IMG_3121.MOV"type="video/ogg">
+			</video>
+			<a href="#">
+			 <div class="card9" style="width:50px;">
+			 <img src="E:\CSS\IMG_3124.PNG" class="img-fluid">
+			 </a>
+			 </div>
+			 
+			<div class="caption1">
+			<center><big><big><big><big> ALAN WALKER</big></big></big></big> </center>
+			</div>
+			</div>
+			
+			
+			<div class="embed-responsive2">
+			<!-- Video embed code goes here -->
+			<video width='600' controls autoplay>
+			<source src="E:\CSS\IMG_3122.MOV" type="video/mp4">
+			<source src="E:\CSS\IMG_3122.MOV"type="video/ogg">
+			</video>
+			<a href="#">
+			 <div class="card10" style="width:50px;">
+			 <img src="E:\CSS\IMG_3124.PNG" class="img-fluid">
+			 </a>
+			 </div>
+			 
+			 <div class="caption2">
+			<center><big><big><big><big> DJO MUSIC</big></big></big></big> </center>
+			</div>
+			</div>
+			
+	</div>		
+			
+			
+
+
+
+
+
+
+</body>
+</html>
